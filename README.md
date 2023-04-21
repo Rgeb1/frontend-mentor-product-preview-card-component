@@ -8,8 +8,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [My process](#my-process)
-  - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Built with](#built-with)
   - [Author](#author)
 
 
@@ -27,29 +27,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/screenshot-product-desktop.jpg)
-(./screenshots/screenshot-product-mobile.jpg)
+![](./screenshots/screenshot-desktop.jpg)
+<img src="./screenshots/screenshot-mobile.jpg">
 
   <!-- <img src="./screenshots/screenshot-product-mobile.jpg"> -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Rgeb1/frontend-mentor-product-preview-card-component.git]
+- Live Site URL: [https://www.frontendmentor.io/solutions/product-preview-card-using-grid-and-flexbox-mobile-first-approach-7peax_9yB-]
 
 
 ## My process
 
 I started styling this project using the mobile first approach, I find it a lot easier this way. I then used media queries to do the layout for the desktop.
-
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 
 ### What I learned
@@ -62,6 +53,15 @@ I started styling this project using the mobile first approach, I find it a lot 
           <img src="images/image-product-mobile.jpg" alt="Chanel perfume">
         </picture>
 ```
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 
 ## Author
