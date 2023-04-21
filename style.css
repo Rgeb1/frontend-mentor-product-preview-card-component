@@ -27,7 +27,7 @@ body {
   font-weight: var(--fw-regular);
   font-size: 0.875rem;
   background-color: var(--clr-secondary);
-  color: var(--neutral-lgt);
+  color: var(--clr-neutral-lgt);
   display: grid;
   place-content: center;
   min-height: 100vh;
