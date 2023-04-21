@@ -45,7 +45,7 @@ I started styling this project using the mobile first approach, I find it a lot 
 
 ### What I learned
 
- I learned that you could change an image seemlessly by using the <code><picture></code> syntax and a media queries.
+ I learned that you could change an image seemlessly by using the picture syntax and a media query.
 
 ```html
 <picture class="product-img">
