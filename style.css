@@ -1,0 +1,135 @@
+:root {
+  --clr-primary:  hsl(158, 36%, 37%);
+  --clr-primary-dark:  hsl(159, 80%, 12%);
+  --clr-secondary: hsl(30, 38%, 92%);
+
+  --clr-neutral-dark: hsl(212, 21%, 14%);
+  --clr-neutral-lgt: hsl(228, 12%, 48%);
+  --clr-neutral-wht: hsl(0, 0%, 100%);
+
+  --ff-main: 'Montserrat', sans-serif;
+  --ff-accent: 'Fraunces', serif;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general styling */
+
+body {
+  font-family: var(--ff-main);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  background-color: var(--clr-secondary);
+  color: var(--neutral-lgt);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 1em;
+}
+
+/* product/card styling */
+
+.product-card {
+  background-color: var(--clr-neutral-wht);
+  border-radius: 0.8rem;
+  max-width: 600px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+.text-wrapper {
+  padding: 1.5em;
+  display: grid;
+}
+
+.subtitle {
+  letter-spacing: 4px;
+}
+
+.product-title {
+  font-family: var(--ff-accent);
+  color: var(--clr-neutral-dark);
+  font-size: 2.25rem;
+  padding: 0.1em 0;
+  line-height: 1;
+}
+
+p {
+  padding: 0.4em 0;
+  line-height: 1.6;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.sale-price {
+  color: var(--clr-primary);
+  font-family: var(--ff-accent);
+  font-size: 1.9rem;
+}
+
+.retail-price {
+  text-decoration: line-through;
+}
+
+/* button styling */
+
+i {
+  margin-right: 0.3em;
+}
+
+.cart-btn {
+  font-family: var(--ff-main);
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--clr-primary);
+  color:var(--clr-neutral-wht);
+  padding: 0.9em 0;
+  border-radius: 0.6em;
+  border: transparent;
+  cursor: pointer;
+}
+
+.cart-btn:is(:hover, :focus) {
+  background-color: var(--clr-primary-dark);
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 4em;
+  font-size: 0.875rem;
+}
+
+/* @media queries */
+
+@media (min-width: 600px) {
+  .product-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1em;
+  }
+
+}
+
+
+
